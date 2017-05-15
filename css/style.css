@@ -181,3 +181,9 @@ blockquote p {
 .active{
   background-color: #1f93e4;
 }
+
+.caption {
+  text-align: center;
+  padding-top: 4px;
+  padding-bottom: 6px;
+}
