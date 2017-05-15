@@ -19,6 +19,7 @@
   width: 500px;
   padding: 5px;
   background-color: rgba(0, 0, 0, 0.55);
+  color: #fff;
 }
 
 div.desc p {
@@ -138,4 +139,41 @@ ul.#nav-content.nav.navbar-nav.navbar-right {
 #nav-content li button {
   text-align: center;
   margin-top: 6px;
+}
+
+#about_header {
+  padding: 60px;
+}
+
+.promo {
+  background-color: #cce2f1;
+  font-size: 26px;
+  text-align: justify;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+.bottom_text {
+  font-size: 22px;
+  text-align: center;
+}
+
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+  text-align: center;
+}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
 }
